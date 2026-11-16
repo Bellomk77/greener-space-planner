@@ -9,7 +9,8 @@ body {
 }
 .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
 header { border-bottom: 1px solid #ddd; padding: 16px 0 0; }
-.brand { font-weight: 700; font-size: 20px; color: #2f6f4e; }
+.brand { font-weight: 700; font-size: 20px; color: #2f6f4e; display: flex; align-items: center; gap: 10px; }
+.brand img { width: 36px; height: 36px; }
 .note { margin: 2px 0 12px; color: #666; font-size: 13px; }
 nav { display: flex; gap: 4px; flex-wrap: wrap; }
 nav button {
